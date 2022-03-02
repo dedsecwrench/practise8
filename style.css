@@ -1,0 +1,29 @@
+body{
+    padding: 30px;
+}
+.box{
+    border: 1px solid black;
+    height:150px;
+    padding:20px;
+    font-size: 21px;
+    width:150px;
+    box-shadow: 7px 7px 3px grey;
+    text-shadow: 5px 5px 3px grey;
+    transition: 2s ease-in-out;
+}
+
+.box1:hover{
+    width:500px;
+    height:500px;
+}
+
+.box2{
+    transition: transform 2s;
+}
+.box2:hover{
+    transform : rotate(360deg);
+}
+
+.box3:hover{
+    width:300px;
+}
